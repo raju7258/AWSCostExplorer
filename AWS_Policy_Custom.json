@@ -10,7 +10,8 @@
                 "cloudwatch:DescribeAlarms",
                 "cloudwatch:GetMetricStatistics",
                 "ce:*",
-                "cloudwatch:ListMetrics"
+                "cloudwatch:ListMetrics",
+                "ses:*"
             ],
             "Resource": "*"
         }
