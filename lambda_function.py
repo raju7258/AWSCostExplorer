@@ -77,16 +77,16 @@ def email(cont):
     AWS_REGION = "us-east-1"
     client1 = boto3.client('ses',region_name=AWS_REGION)
     response = client1.send_email(
-        Source='rajeshnair@integratech.ae',
+        Source='rajeshnair@rajeshnair.co.in',
         Destination={
             'ToAddresses': [
-                'rajeshnair@integratech.ae',
+                'rajeshnair@rajeshnair.co.in',
             ],
             'CcAddresses': [
-                'rajeshnair@integratech.ae',
+                'rajeshnair@rajeshnair.co.in',
             ],
             'BccAddresses': [
-              'rajeshnair@integratech.ae',
+              'rajeshnair@rajeshnair.co.in',
             ]
         },
         Message={
@@ -96,7 +96,7 @@ def email(cont):
             },
             'Body': {
                 'Text': {
-                    'Data': 'Integra AWS Billing',
+                    'Data': 'AWS Billing',
                     'Charset': 'UTF-8'
                 },
                 'Html': {
