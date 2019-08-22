@@ -3,6 +3,7 @@
 #This is the code for getting AWS Total billing of 30 days using AWS Lambda and AWS SES. You will receive the total billing of your account to the email ID entered in the lambda function.
 
 Requirements
+
 ################
 
 
@@ -16,6 +17,7 @@ Requirements
 
 
 Changes in Lambda Function
+
 ################
 
 1. You need to update change the email id from "rajeshnair@rajeshnair.co.in" to your AWS SES verified email ID.
