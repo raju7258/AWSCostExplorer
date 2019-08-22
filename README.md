@@ -8,11 +8,15 @@ Requirements
 
 1. AWS IAM Role needs to be created for Lambda Function to run.
 
-Custom IAM Policy for the role is available in the git repository named "AWS_Policy_Custom.json"
+    Custom IAM Policy for the role is available in the git repository named "AWS_Policy_Custom.json"
 
 2. AWS SES email id to be verified
 
-You need to verify email ID in AWS SES.
+    You need to verify email ID in AWS SES.
 
 
+Changes in Lambda Function
+################
+
+1. You need to update change the email id from "rajeshnair@rajeshnair.co.in" to your AWS SES verified email ID.
 
