@@ -14,6 +14,7 @@ Requirements
 
     You need to verify email ID in AWS SES.
 
+3. Enable Cost Explorer
 
 Changes in Lambda Function
 ################
